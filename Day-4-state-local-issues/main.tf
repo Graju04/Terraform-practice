@@ -8,3 +8,9 @@ resource "aws_instance" "name" {
     }
   
 }
+
+# terraform {
+#   backend "s3" {
+#     bucket = ""
+#   }
+# }
