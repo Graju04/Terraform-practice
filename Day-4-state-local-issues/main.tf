@@ -14,3 +14,14 @@ resource "aws_instance" "name" {
 #     bucket = ""
 #   }
 # }
+
+
+# resource "aws_s3_bucket" "name" {
+#   bucket = "mybucket"
+# }
+
+# terraform {
+#   backend "aws_s3_bucket" {
+    
+#   }
+# }
